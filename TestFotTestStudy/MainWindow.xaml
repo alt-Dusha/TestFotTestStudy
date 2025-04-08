@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestFotTestStudy"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Triangle" Height="350" Width="600"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#F1ED70">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="250"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Grid.Column="1" Grid.Row="1"
+                BorderBrush="#5D0C7E" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="10"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Grid.Column="1" Margin="0, 10" Name="A"
+                             FontSize="70" HorizontalContentAlignment="Center"
+                             MaxLength="3" Background="#fffbe3"
+                             Foreground="#7F10AD"
+                             PreviewTextInput="checkIfInputDigits"/>
+                    <TextBox Grid.Column="3" Margin="0, 10" Name="B"
+                             FontSize="70" HorizontalContentAlignment="Center"
+                             MaxLength="3" Background="#fffbe3"
+                             Foreground="#7F10AD"
+                             PreviewTextInput="checkIfInputDigits"/>
+                    <TextBox Grid.Column="5" Margin="0, 10" Name="C"
+                             FontSize="70" HorizontalContentAlignment="Center"
+                             MaxLength="3" Background="#fffbe3"
+                             Foreground="#7F10AD"
+                             PreviewTextInput="checkIfInputDigits"/>
+                </Grid>
+                <Button Grid.Row="1" Margin="60, 20" FontSize="60" Content="Рассчитать"
+                        Foreground="#7F10AD" Background="#fffbe3"
+                        BorderBrush="#7F10AD" FontWeight="Light"/>
+            </Grid>
+        </Border>
     </Grid>
 </Window>

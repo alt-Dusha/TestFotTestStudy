@@ -1,0 +1,15 @@
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\bin\Debug\TestFotTestStudy.exe.config
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\bin\Debug\TestFotTestStudy.exe
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\bin\Debug\TestFotTestStudy.pdb
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.csproj.AssemblyReference.cache
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\MainWindow.g.cs
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\App.g.cs
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy_MarkupCompile.cache
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy_MarkupCompile.lref
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\MainWindow.baml
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.g.resources
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.Properties.Resources.resources
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.csproj.GenerateResource.cache
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.csproj.CoreCompileInputs.cache
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.exe
+D:\Project\C#\TestFotTestStudy\TestFotTestStudy\obj\Debug\TestFotTestStudy.pdb

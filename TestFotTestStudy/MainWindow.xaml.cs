@@ -24,5 +24,19 @@ namespace TestFotTestStudy
         {
             InitializeComponent();
         }
+
+        void checkIfInputDigits(object sender, TextCompositionEventArgs e)
+        {
+            if (((TextBox)sender).Text == "0")
+            {
+                MessageBox.Show("Нельзя начинать писать вещественные числа с нуля", "ОШИБКА", MessageBoxButton.OK, MessageBoxImage.Warning);
+                ((TextBox)sender).Clear();
+            }
+
+            if (!Char.IsDigit(e.Text, 0))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
